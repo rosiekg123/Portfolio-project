@@ -20,16 +20,19 @@ h3 {
 h1 {
   font-size: 96px;
   color: var(--primary-color);
+  font-family: rock salt;
 }
 
 h2 {
   font-size: 48px;
   color: var(--primary-color);
+  font-family: Darker grotesque;
 }
 h3 {
   font-size: 24px;
   color: var(--tertiary-color);
   opacity: 0.7;
+  font-family: Darker grotesque;
 }
 
 .pages {
@@ -59,9 +62,11 @@ p {
 
   padding: 20px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   text-align: center;
+  font-family: Darker grotesque;
+  color: var(--tertiary-color);
 }
 .about-paragraphs {
   display: flex;
@@ -75,9 +80,15 @@ p {
   display: flex;
   justify-content: center;
   font-size: 28px;
+  font-family: Darker grotesque;
 }
 .homepage-link {
   color: var(--tertiary-color);
   text-align: center;
   display: block;
+  font-family: Darker grotesque;
+}
+a {
+  font-family: Darker grotesque;
+  font-size: 20px;
 }
