@@ -14,11 +14,12 @@ h1,
 h2,
 h3 {
   text-align: center;
-  margin: 0;
+  margin-top: 10px;
+  padding: 20px;
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 120px;
   color: var(--primary-color);
   font-family: rock salt;
 }
@@ -35,6 +36,21 @@ h3 {
   font-family: Darker grotesque;
 }
 
+a {
+  font-family: Darker grotesque;
+  font-size: 20px;
+}
+p {
+  background: var(--fourth-color);
+
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  font-family: Darker grotesque;
+  color: var(--tertiary-color);
+}
 .pages {
   display: flex;
   margin-top: 40px;
@@ -57,17 +73,6 @@ h3 {
   color: var(--secondary-color);
   box-shadow: var(--box-shadow);
 }
-p {
-  background: var(--fourth-color);
-
-  padding: 20px;
-  border-radius: 4px;
-  font-size: 20px;
-  line-height: 1.5;
-  text-align: center;
-  font-family: Darker grotesque;
-  color: var(--tertiary-color);
-}
 .about-paragraphs {
   display: flex;
   margin: 30px;
@@ -87,8 +92,4 @@ p {
   text-align: center;
   display: block;
   font-family: Darker grotesque;
-}
-a {
-  font-family: Darker grotesque;
-  font-size: 20px;
 }
