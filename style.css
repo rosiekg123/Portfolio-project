@@ -41,6 +41,10 @@ a {
   font-size: 20px;
 }
 p {
+  font-family: Darker grotesque;
+  font-size: 20px;
+}
+.text-box {
   background: var(--fourth-color);
 
   padding: 20px;
@@ -92,4 +96,14 @@ p {
   text-align: center;
   display: block;
   font-family: Darker grotesque;
+}
+.link-button {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
