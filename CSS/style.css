@@ -24,6 +24,14 @@ h1 {
   font-family: rock salt;
 }
 
+@media (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+    color: var(--primary-color);
+    font-family: rock salt;
+  }
+}
+
 h2 {
   font-size: 48px;
   color: var(--primary-color);
