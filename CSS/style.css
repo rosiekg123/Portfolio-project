@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #75c9c8;
-  --secondary-color: #36558f;
-  --tertiary-color: #f7b538;
-  --fourth-color: rgba(215, 36, 131, 0.8);
+  --primary-color: #f70776;
+  --secondary-color: #141010;
+  --tertiary-color: #680747;
+  --fourth-color: rgba(230, 95, 92, 0.8);
   --box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
@@ -39,7 +39,7 @@ h2 {
 }
 h3 {
   font-size: 24px;
-  color: var(--tertiary-color);
+  color: var(--primary-color);
   opacity: 0.7;
   font-family: Darker grotesque;
 }
@@ -47,11 +47,12 @@ h3 {
 a {
   font-family: Darker grotesque;
   font-size: 20px;
+  color: white;
 }
 p {
   font-family: Darker grotesque;
   font-size: 20px;
-  color: #f7b538;
+  color: white;
 }
 .text-box {
   background: var(--fourth-color);
@@ -75,6 +76,7 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  color: white;
 }
 .contact-link {
   background: var(--primary-color);
@@ -115,4 +117,5 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  color: white;
 }
