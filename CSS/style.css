@@ -14,9 +14,9 @@ h1,
 h2,
 h3 {
   text-align: center;
-  margin-top: 60px;
-  margin-bottom: 30px;
-  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding: 10px;
 }
 
 h1 {
@@ -55,13 +55,18 @@ p {
   font-family: Darker grotesque;
   font-size: 20px;
   color: white;
+  margin-bottom: 80px;
+  text-align: center;
 }
 
-img.grid:hover {
-  transition: all 150ms ease-in-out;
-  filter: contrast();
-  transform: scale(1.2);
+.img-fluid {
+  display: flex;
+  justify-content: center;
+  max-width: 60%;
+  height: auto;
+  margin: auto;
 }
+
 .text-box {
   background: var(--primary-color);
 
@@ -139,4 +144,8 @@ img.grid:hover {
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
+}
+.description {
+  display: block;
+  text-align: center;
 }
