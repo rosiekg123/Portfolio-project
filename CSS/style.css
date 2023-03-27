@@ -59,6 +59,30 @@ p {
   text-align: center;
 }
 
+.footer-email {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 44px;
+  background-color: var(--tertiary-color);
+}
+.footer-email:hover {
+  color: var(--primary-color);
+}
+.social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background-color: var(--tertiary-color);
+  padding: 10px 20px;
+  font-size: 36px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+.social-links a:hover {
+  color: var(--tertiary-color);
+  background-color: var(--primary-color);
+}
+
 .img-fluid {
   display: flex;
   justify-content: center;
