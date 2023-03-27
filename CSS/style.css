@@ -97,6 +97,10 @@ p {
   box-shadow: var(--box-shadow);
   color: var(--secondary-color);
 }
+.contact-title {
+  text-decoration: underline;
+  font-size: 66px;
+}
 .about-link {
   background: var(--tertiary-color);
   color: var(--secondary-color);
