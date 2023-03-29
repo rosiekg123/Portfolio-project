@@ -58,6 +58,11 @@ p {
   margin-bottom: 80px;
   text-align: center;
 }
+@media (max-width: 576px) {
+  footer {
+    font-size: 20px;
+  }
+}
 
 .footer-email {
   display: block;
