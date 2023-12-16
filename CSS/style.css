@@ -139,6 +139,11 @@ p {
   color: var(--secondary-color);
   box-shadow: var(--box-shadow);
 }
+.about-link2 {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--secondary-color);
+}
 .about-paragraphs {
   display: flex;
   margin: 30px;
