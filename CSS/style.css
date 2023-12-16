@@ -109,7 +109,7 @@ p {
   line-height: 1.5;
   text-align: center;
   font-family: Darker grotesque;
-  color: var(--tertiary-color);
+  color: white;
 }
 .pages {
   display: flex;
